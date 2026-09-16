@@ -1,7 +1,7 @@
 // frontend/src/api/urls.js => API paths
-export const BASE_URL = "http://localhost:5000";
+export const BASE_URL1 = "http://localhost:5000";
 
-// export const BASE_URL = import.meta.env.VITE_API_BASE_URL || "https://ai-interview-preparation-eais.onrender.com";
+export const BASE_URL = import.meta.env.VITE_API_BASE_URL ? import.meta.env.VITE_API_BASE_URL : BASE_URL1;
 
 export const API_PATHS = {
   AUTH: {
